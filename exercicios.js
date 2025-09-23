@@ -33,4 +33,26 @@ console.log(teste);
 
 //5)Declare uma variável usando var fora de um bloco de código (por exemplo, if) e outra dentro desse bloco. Tente acessar essas variáveis dentro do bloco e fora dele utilizando console.log e analise os resultados. Faça o mesmo processo utilizando let e compare com os resultados anteriores.
 
+var bloco = 10;
+
+if (true) {
+  var se = 5;
+  console.log(bloco);
+  console.log(se);
+}
+
+console.log(bloco);
+console.log(se);
+
+let bloco1 = 10;
+
+if (true) {
+  let se1 = 5;
+  console.log(bloco1);
+  console.log(se1);
+}
+
+console.log(bloco1);
+console.log(se1);
+
 //6)Declare uma variável booleana que informa se está chovendo e utilize-a em uma estrutura condicional (if) para exibir uma mensagem informando se é preciso levar um guarda-chuva ou não dependendo do valor da variável.
