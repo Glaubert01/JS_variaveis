@@ -53,6 +53,12 @@ if (true) {
 }
 
 console.log(bloco1);
-console.log(se1);
+//console.log(se1);
 
 //6)Declare uma variável booleana que informa se está chovendo e utilize-a em uma estrutura condicional (if) para exibir uma mensagem informando se é preciso levar um guarda-chuva ou não dependendo do valor da variável.
+
+let chuva = true;
+
+if (chuva) {
+  console.log("Leve a sombrinha pois esta chovendo");
+}
