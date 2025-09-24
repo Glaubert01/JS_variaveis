@@ -5,3 +5,6 @@ const estudanteReprovou = function (notaFinal, faltas) {
     return false;
   }
 };
+
+console.log(estudanteReprovou(6, 5));
+console.log(estudanteReprovou(8, 2));
